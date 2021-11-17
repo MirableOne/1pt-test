@@ -6,6 +6,7 @@ class Application
 {
     public function through(Request $request): Response
     {
+        //todo: add global try/catch + error rende callbck
         return new Response();
     }
 
