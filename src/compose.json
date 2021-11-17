@@ -1,0 +1,17 @@
+{
+  "name": "test/1pt",
+  "type": "project",
+  "description": "1pt test task",
+  "license": "MIT",
+  "require": {
+    "php": "^7.4.*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Kernel\\": "kernel/"
+    }
+  }
+}
