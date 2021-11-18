@@ -1,10 +1,14 @@
-Write in Russian course I have no time ;)
+Ivan and I agreed to spend only **one** hour after I take dis-doc. So there are some thoughts about my result. 
 
+I didn't run application at all. There is no 3rd party libs or solutions in case of only one hour.
 
-Приложение не запускал. Никаких сторонних решений не использовал.
-OpenAPI генератор для php я не трогал, а по опыту из go это может быть квест явно не на час.
-Накидал базовые классы некого фреймворка, хотя это была плохая идея, не для задания на час.
+I have no local php environment and create a new one with docker/phpstorm could take some time. 
 
-До реализации конкретных компонентов я даже близко не дошел, оставил кое-какие todo, с большего идеи должны быть понятны.
+There is no usage of open-api generator cause of 2 reasons:
+1. I have used for golang, and it could be pretty complex task;
+2. I have tried to generate server-side stubs for different languages, and the result wasn't really useful.
 
-Конкретные места уже по конкретным вопросам разберем.  
+I tried to make some abstract-framework, but it was a bad idea. In other case set up the real one could be more time-consuming start.
+
+There are no concrete realizations at all. In the most cases there are only classes with a few methods.
+I wrote some `todo` and comments for clear ideas what to do next.
